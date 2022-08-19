@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        const candidates = {
+            firstName : "Raj",
+            empId : "134",
+            contact : "123456789"
+        }
+        // document.write(candidates.empId)  dot notation
+        // document.write(candidates['empId']) Bracket Notation
+
+    //     document.write("Hello i am "+candidates.firstName+"my Id is"+candidates.empId+"<br>");
+    
+    // const cars = {};
+    // cars.cname = "xuv700";
+    // cars.model = 2013;
+    // cars.ownership = "second"
+    // cars.price = 1000;
+
+    // document.write(cars.cname)
+
+//     let candid = ""
+
+//   for (let x in candidates){
+//       candid += candidates[x] + " "
+      
+
+//   }  
+// //   document.write(candid);
+
+//   const myarray = Object.values(candidates);
+//   document.write(typeof(myarray))
+
+// // String Methods
+//   let myString = "Aeroplaneab"
+//   document.write("First char of my string is:", myString[0])
+
+// let a = myString.indexOf("plane")
+// document.write(a)
+
+// let charat = myString.charAt(6);
+// document.write(charat)
+
+// let splitstr = myString.split("a",2)
+// document.write(splitstr)
+// console.log(splitstr)
+
+let datecurrent = new Date();
+document.write('My date:', datecurrent)
+document.write("in milliseconds: ",datecurrent.getTime())
+
+console.log("Date:",datecurrent.getDate());
+console.log("Month:",datecurrent.getMonth());
+console.log("Year:",datecurrent.getFullYear());
+
+datecurrent.setFullYear(2049,10,28)
+console.log("changed date:",datecurrent)
+
+
+
+
+
+
+    
+    
+    </script>
+</body>
+</html>

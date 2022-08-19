@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <p>hello i am Html</p>
+
+
+
+
+
+
+<script>
+
+//     x = 8;
+//     let y = 10;
+//     console.log("outside var"+x)
+// console.log(" outside let"+y)
+
+// {
+//     var x = 5;
+//     let y = "changed value"
+//     console.log("var"+x)
+//     console.log("let"+y)
+// }
+
+
+// x = 5
+// y = 10
+// a = x+y;
+// z = x*y;
+// modulus = y%x
+// A = "hello";
+// B = "world";
+// C = A+" "+B;
+// console.log(a)
+
+// let num1 = 3;
+// let num2 = ++num1;
+// console.log(num2 != 6);
+
+// Operators
+let val1 = 18; //number
+let val2 = 19;
+
+console.log(val1 == "24") // this dont check for type
+console.log(val1 === "24")//it will check for type (string)
+
+console.log(val1 !== "24") // true
+console.log(val1 !== 24) //False
+
+console.log(val1 <10)
+
+// Conditional Statements
+// if(val1 >= 18){
+//     document.write("you can vote for the nation")
+
+// }
+
+// var hour = 11
+
+// if(hour<12){
+//     document.write("its a morning")
+
+// }else{
+//     document.write("its a afternoon ")
+
+// }
+
+// // ternary operator
+//  var result = (hour<12) ? "its a day" : "its a night "
+//  document.write(result)
+
+
+//  if else if statements
+// time= 1
+// SystemFetchTime = false
+
+// if(SystemFetchTime){
+
+//     if(time <10){
+//         document.write("its a Day @"+time )
+
+
+//     }else if(time <20 && time >10){
+//         document.write("afternoon")
+
+
+//     }else{
+//         document.write("evening")
+
+
+//     }
+
+// }else{
+//     document.write("we are closed")
+
+// }
+
+// let city = "Ahmedabad";
+
+// switch(city){
+//     case "Mumbai":
+//         document.write("android developers");
+//         break;
+
+
+//     case "Chennai":
+//         document.write("react");
+//         break;
+//     case "Ahmedabad":
+//         document.write("js");
+//         break;
+
+
+
+//     default:
+//         document.write("Bad response")
+        
+// }
+
+// Loops
+// for(initial ; condition; increment/decrement)
+
+// for(i=0; i<5; ++i){
+//         document.writeln("<br>"+i);
+//         }
+// // i = 0
+// // 1
+// // 2
+// // 3
+// // 4
+// let sum =0;
+// let n = 3;
+
+// for(let i = n; i>=1 ; i--){
+//     sum += i
+//     document.write(sum)
+// }
+// document.write("<br>"+sum)
+
+// i=10
+
+// ab = 0;
+// while(ab < 10)
+// {
+//     ab++;
+// document.write("<br>number:<br>"+ab)
+// }
+
+// do{
+//     ab++;
+// document.write("<br>number:"+ab)
+// }while(ab<10)
+
+// document.write("hello raj")
+// document.write("welcome to the session")
+// document.write("your ID is 1")
+
+// document.write("hello abc")
+// document.write("welcome to the session")
+// document.write("your ID is 2")
+
+
+// a=10
+// b=20
+//     function math(){
+//         document.write(a+b)
+//     }
+
+//     math();
+
+// function greet(name="infosys", id="0"){
+//     document.write("hello<br> "+name)
+//     document.write("welcome to the session<br>")
+//     document.write("your ID is "+id)
+// }
+
+// greet("raj",2);
+// greet("akshay",3)
+// greet("sneha",4)
+// greet()
+
+// function calc(eng=0,maths=0,science=0){
+//     let sum = eng+maths+science;
+//     return sum;
+
+// }
+
+// function percent(total){
+//     var per = total/300*100;
+//     document.write(per)
+// }
+
+// let total = calc(85,82,74);
+// document.write(total)
+// percent(total)
+
+// var abc = (a,b) =>{
+//     let result = a+b
+//     return result;
+// }
+// let result1 = abc(5,7)
+// console.log(result1);
+// document.write(result1)
+
+// let hello = () =>{
+//     return "hello raj"
+// }
+
+// document.write(hello())
+
+// let hello = ()=>{  //ArroW Function
+//     return "infosys"
+// }
+// document.write(hello())
+// console.log(hello())
+
+// continue and break
+// i=0;
+// for(i=0; i<=5;i++)
+// {
+//     if(i==3){
+//         document.write("<br>Hey:"+i)
+//         continue;
+
+//     }
+//     document.write("<br>"+i)
+// }
+
+// var ary = [10,'hey',true,72,null,"dog"]
+//  ary[0] = 28
+//  document.write(ary+"<br>")
+//  delete ary[2]
+//  document.write(ary+"<br>")
+
+//  var a = ["san","man","tan","can","nan"]
+//  var b = [3,4,5,6,6]
+//  var d = ["hello","we","know","something"]
+//  var c =a.concat(b,d)
+//  document.write(c)
+
+  var cars = ['maruti','hyundai','honda','tata','volkswagen']
+//  let cname = cars.slice(-3,-1)
+//  document.write(cname)
+cars.splice(3,0,"chevrolet","kia")
+document.write(cars)
+
+
+
+// var ary = new Array();
+
+// for(var r=0; r<3;r++){
+//     ary[r] = prompt('Enter the names :');
+// }
+// ary[0] = 10
+// ary[1] = "abc"
+// ary[2] = 4
+
+
+
+
+// for(var a =0;a<=2;a++){
+//     document.write(ary[a]+"<br>")
+// }
+
+
+</script>
+
+</body>
+</html>

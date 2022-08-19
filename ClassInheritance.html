@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+class employee{
+    constructor(name){
+        this.Empname = name;
+    }
+    coding(){
+        console.log("Employee is coding")
+    }
+}
+
+class empwork extends employee{
+    constructor(name, progress){
+        super(name)
+        this.progressreport = progress
+    }
+    progress(){
+        console.log("this will show progress of emp")
+        super.coding();
+    }
+}
+
+let Company = new empwork("","poor")
+console.log(Company);
+Company.progress();
+
+
+    </script>
+</body>
+</html>
